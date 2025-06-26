@@ -3,137 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Bean - Web Development & Training</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Hot Beans - Web Development Training</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav>
         <div class="nav-container">
-            <div class="nav-brand">
-                <div class="logo">☕</div>
-                <span class="brand-text">Hot Bean</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#team" class="nav-link">Our Team</a></li>
-                <li><a href="#jobs" class="nav-link">Jobs</a></li>
-                <li><a href="#apply" class="nav-link">Apply Now</a></li>
-                <li><a href="#courses" class="nav-link">Web Courses</a></li>
+            <h2>Hot Beans ☕</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#apply">Apply Now</a></li>
+                <li><a href="#courses">Web Courses</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </nav>
 
     <!-- Home Section -->
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Brew Your Future in
-                    <span class="gradient-text">Web Development</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Join Hot Bean and transform your passion for technology into a thriving career. 
-                    Learn cutting-edge web development skills and land your dream job.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
-                    <a href="#apply" class="btn btn-secondary">Apply Now</a>
-                </div>
+        <div class="container">
+            <h1>Learn Web Development with Hot Beans</h1>
+            <p>We teach you how to build websites and get a job in tech. It's that simple.</p>
+            <div class="buttons">
+                <a href="#courses" class="btn primary">View Courses</a>
+                <a href="#apply" class="btn secondary">Apply Today</a>
             </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Graduates Placed</div>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <h3>200+</h3>
+                    <p>Students Trained</p>
                 </div>
-                <div class="stat">
-                    <div class="stat-number">95%</div>
-                    <div class="stat-label">Job Placement Rate</div>
+                <div class="stat-box">
+                    <h3>85%</h3>
+                    <p>Got Jobs</p>
                 </div>
-                <div class="stat">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Partner Companies</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">4.9/5</div>
-                    <div class="stat-label">Student Rating</div>
+                <div class="stat-box">
+                    <h3>6 months</h3>
+                    <p>Average Course</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="team-section">
+    <section id="team">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Meet Our <span class="gradient-text">Expert Team</span></h2>
-                <p class="section-subtitle">Learn from industry veterans who have worked at top tech companies</p>
-            </div>
+            <h2>Meet Our Team</h2>
+            <p>These are the people who will teach you everything you need to know.</p>
+            
             <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Sarah Chen">
-                    </div>
-                    <div class="team-info">
-                        <h3>Sarah Chen</h3>
-                        <p class="team-role">Lead Instructor & Co-Founder</p>
-                        <p class="team-bio">Former senior engineer at Google with 8 years of experience in full-stack development.</p>
-                        <div class="team-skills">
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">System Design</span>
-                        </div>
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Sarah">
+                    <h3>Sarah Johnson</h3>
+                    <p><strong>Lead Instructor</strong></p>
+                    <p>Used to work at Google. Now teaches React and JavaScript. Really knows her stuff.</p>
+                    <div class="skills">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
                     </div>
                 </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.pexels.com/photos/3778896/pexels-photo-3778896.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Marcus Rodriguez">
-                    </div>
-                    <div class="team-info">
-                        <h3>Marcus Rodriguez</h3>
-                        <p class="team-role">Senior Frontend Instructor</p>
-                        <p class="team-bio">UI/UX specialist with extensive experience at startups and Fortune 500 companies.</p>
-                        <div class="team-skills">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">UI/UX Design</span>
-                        </div>
+                
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/3778896/pexels-photo-3778896.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Mike">
+                    <h3>Mike Chen</h3>
+                    <p><strong>Frontend Teacher</strong></p>
+                    <p>Makes websites look pretty. Been doing this for 8 years. Very patient with beginners.</p>
+                    <div class="skills">
+                        <span>CSS</span>
+                        <span>HTML</span>
+                        <span>Design</span>
                     </div>
                 </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.pexels.com/photos/3778212/pexels-photo-3778212.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Emily Park">
-                    </div>
-                    <div class="team-info">
-                        <h3>Emily Park</h3>
-                        <p class="team-role">Backend & DevOps Instructor</p>
-                        <p class="team-bio">Cloud architecture expert with certifications from AWS, Azure, and Google Cloud.</p>
-                        <div class="team-skills">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">AWS</span>
-                            <span class="skill-tag">Docker</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="David Kim">
-                    </div>
-                    <div class="team-info">
-                        <h3>David Kim</h3>
-                        <p class="team-role">Full-Stack Instructor</p>
-                        <p class="team-bio">Full-stack developer with expertise in modern JavaScript frameworks and databases.</p>
-                        <div class="team-skills">
-                            <span class="skill-tag">TypeScript</span>
-                            <span class="skill-tag">Next.js</span>
-                            <span class="skill-tag">PostgreSQL</span>
-                        </div>
+                
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/3778212/pexels-photo-3778212.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Lisa">
+                    <h3>Lisa Park</h3>
+                    <p><strong>Backend Expert</strong></p>
+                    <p>Handles all the server stuff. Worked at startups and big companies. Loves coffee.</p>
+                    <div class="skills">
+                        <span>Python</span>
+                        <span>Databases</span>
+                        <span>APIs</span>
                     </div>
                 </div>
             </div>
@@ -141,427 +95,218 @@
     </section>
 
     <!-- Jobs Section -->
-    <section id="jobs" class="jobs-section">
+    <section id="jobs">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Job Opportunities & <span class="gradient-text">Qualifications</span></h2>
-                <p class="section-subtitle">Discover exciting career opportunities with our partner companies</p>
-            </div>
-            <div class="jobs-stats">
-                <div class="job-stat">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Active Positions</div>
+            <h2>Job Opportunities</h2>
+            <p>Here are some jobs our students got after finishing our courses:</p>
+            
+            <div class="jobs-list">
+                <div class="job-card">
+                    <h3>Junior Web Developer</h3>
+                    <p><strong>TechStart Inc.</strong> - San Francisco</p>
+                    <p class="salary">$65,000 - $80,000</p>
+                    <p>Build websites with HTML, CSS, and JavaScript. Perfect for beginners.</p>
+                    <div class="requirements">
+                        <h4>What you need:</h4>
+                        <ul>
+                            <li>Know HTML, CSS, JavaScript</li>
+                            <li>Some React experience</li>
+                            <li>Can work in a team</li>
+                            <li>Want to learn more</li>
+                        </ul>
+                    </div>
+                    <a href="#apply" class="btn primary">Apply</a>
                 </div>
-                <div class="job-stat">
-                    <div class="stat-number">95%</div>
-                    <div class="stat-label">Placement Rate</div>
-                </div>
-                <div class="job-stat">
-                    <div class="stat-number">$75k</div>
-                    <div class="stat-label">Average Salary</div>
-                </div>
-                <div class="job-stat">
-                    <div class="stat-number">30+</div>
-                    <div class="stat-label">Partner Companies</div>
-                </div>
-            </div>
-            <div class="jobs-grid">
+                
                 <div class="job-card featured">
-                    <div class="job-badge">⭐ Featured</div>
-                    <div class="job-header">
-                        <h3>Frontend Developer</h3>
-                        <div class="company">TechFlow Inc.</div>
-                    </div>
-                    <div class="job-details">
-                        <span class="job-location">📍 San Francisco, CA</span>
-                        <span class="job-type">⏰ Full-time</span>
-                        <span class="job-salary">💰 $80,000 - $120,000</span>
-                        <span class="job-level">👥 Entry Level</span>
-                    </div>
-                    <p class="job-description">Join our dynamic team building next-generation web applications with React and TypeScript.</p>
-                    <div class="job-requirements">
-                        <h4>Requirements:</h4>
+                    <div class="featured-badge">Popular!</div>
+                    <h3>Frontend Developer</h3>
+                    <p><strong>WebCorp</strong> - Remote</p>
+                    <p class="salary">$70,000 - $90,000</p>
+                    <p>Make user interfaces that people love to use. Work from anywhere.</p>
+                    <div class="requirements">
+                        <h4>What you need:</h4>
                         <ul>
-                            <li>✅ Proficiency in HTML, CSS, and JavaScript</li>
-                            <li>✅ Experience with React and modern JS frameworks</li>
-                            <li>✅ Understanding of responsive design principles</li>
-                            <li>✅ Familiarity with Git version control</li>
+                            <li>Good at React</li>
+                            <li>Know CSS really well</li>
+                            <li>Can make responsive websites</li>
+                            <li>2+ years experience</li>
                         </ul>
                     </div>
-                    <a href="#apply" class="btn btn-primary">Apply Now</a>
+                    <a href="#apply" class="btn primary">Apply</a>
                 </div>
+                
                 <div class="job-card">
-                    <div class="job-header">
-                        <h3>Full-Stack Developer</h3>
-                        <div class="company">StartupLab</div>
-                    </div>
-                    <div class="job-details">
-                        <span class="job-location">📍 Remote</span>
-                        <span class="job-type">⏰ Full-time</span>
-                        <span class="job-salary">💰 $70,000 - $100,000</span>
-                        <span class="job-level">👥 Mid Level</span>
-                    </div>
-                    <p class="job-description">Build scalable web applications using modern technologies in a fast-paced startup environment.</p>
-                    <div class="job-requirements">
-                        <h4>Requirements:</h4>
+                    <h3>Full Stack Developer</h3>
+                    <p><strong>Digital Solutions</strong> - New York</p>
+                    <p class="salary">$75,000 - $95,000</p>
+                    <p>Do both frontend and backend. Build complete web applications.</p>
+                    <div class="requirements">
+                        <h4>What you need:</h4>
                         <ul>
-                            <li>✅ Strong JavaScript/TypeScript skills</li>
-                            <li>✅ Experience with Node.js and Express</li>
-                            <li>✅ Database knowledge (PostgreSQL/MongoDB)</li>
-                            <li>✅ Cloud deployment experience (AWS/Heroku)</li>
+                            <li>Frontend skills (React, CSS)</li>
+                            <li>Backend skills (Node.js, Python)</li>
+                            <li>Database knowledge</li>
+                            <li>Problem solving skills</li>
                         </ul>
                     </div>
-                    <a href="#apply" class="btn btn-primary">Apply Now</a>
-                </div>
-                <div class="job-card">
-                    <div class="job-header">
-                        <h3>Junior Web Developer</h3>
-                        <div class="company">Digital Innovations</div>
-                    </div>
-                    <div class="job-details">
-                        <span class="job-location">📍 Austin, TX</span>
-                        <span class="job-type">⏰ Full-time</span>
-                        <span class="job-salary">💰 $50,000 - $70,000</span>
-                        <span class="job-level">👥 Entry Level</span>
-                    </div>
-                    <p class="job-description">Perfect opportunity for new graduates to grow in a supportive environment.</p>
-                    <div class="job-requirements">
-                        <h4>Requirements:</h4>
-                        <ul>
-                            <li>✅ Basic HTML, CSS, JavaScript knowledge</li>
-                            <li>✅ Enthusiasm for learning new technologies</li>
-                            <li>✅ Good problem-solving skills</li>
-                            <li>✅ Portfolio of personal projects</li>
-                        </ul>
-                    </div>
-                    <a href="#apply" class="btn btn-primary">Apply Now</a>
+                    <a href="#apply" class="btn primary">Apply</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Apply Section -->
-    <section id="apply" class="apply-section">
+    <section id="apply">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Apply to <span class="gradient-text">Hot Bean</span></h2>
-                <p class="section-subtitle">Ready to transform your career? Fill out the application below</p>
-            </div>
-            <div class="application-process">
-                <div class="process-step">
-                    <div class="step-icon">📝</div>
-                    <h3>1. Submit Application</h3>
-                    <p>Complete the form with your information and motivation</p>
+            <h2>Apply Now</h2>
+            <p>Ready to start learning? Fill out this form and we'll get back to you.</p>
+            
+            <form class="application-form">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" name="name" required>
                 </div>
-                <div class="process-step">
-                    <div class="step-icon">📞</div>
-                    <h3>2. Phone Interview</h3>
-                    <p>Brief conversation to understand your goals and fit</p>
+                
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" name="email" required>
                 </div>
-                <div class="process-step">
-                    <div class="step-icon">✅</div>
-                    <h3>3. Enrollment</h3>
-                    <p>Get accepted and start your journey to becoming a developer</p>
+                
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" name="phone">
                 </div>
-            </div>
-            <div class="application-form">
-                <form class="apply-form">
-                    <div class="form-section">
-                        <h3>👤 Personal Information</h3>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="firstName">First Name *</label>
-                                <input type="text" id="firstName" name="firstName" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="lastName">Last Name *</label>
-                                <input type="text" id="lastName" name="lastName" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-section">
-                        <h3>📧 Contact Information</h3>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Email Address *</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number *</label>
-                                <input type="tel" id="phone" name="phone" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-section">
-                        <h3>💻 Program Information</h3>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="program">Preferred Program *</label>
-                                <select id="program" name="program" required>
-                                    <option value="">Select a program</option>
-                                    <option value="fullstack">Full-Stack Web Development Bootcamp</option>
-                                    <option value="frontend">Frontend React Specialization</option>
-                                    <option value="backend">Backend Node.js Track</option>
-                                    <option value="uiux">UI/UX Design & Development</option>
-                                    <option value="javascript">JavaScript Fundamentals</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="experience">Current Experience Level *</label>
-                                <select id="experience" name="experience" required>
-                                    <option value="">Select your level</option>
-                                    <option value="beginner">Complete Beginner</option>
-                                    <option value="some-html">Some HTML/CSS Knowledge</option>
-                                    <option value="basic-programming">Basic Programming Experience</option>
-                                    <option value="career-change">Career Change from Another Field</option>
-                                    <option value="self-taught">Self-Taught Developer</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-section">
-                        <h3>📅 Additional Information</h3>
-                        <div class="form-group">
-                            <label for="motivation">Why do you want to become a web developer? *</label>
-                            <textarea id="motivation" name="motivation" rows="4" required placeholder="Tell us about your motivation and career goals..."></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="portfolio">Portfolio/GitHub URL (optional)</label>
-                            <input type="url" id="portfolio" name="portfolio" placeholder="https://github.com/yourusername">
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="startDate">Preferred Start Date *</label>
-                                <select id="startDate" name="startDate" required>
-                                    <option value="">Select start date</option>
-                                    <option value="next-month">Next Month</option>
-                                    <option value="2-months">In 2 Months</option>
-                                    <option value="3-months">In 3 Months</option>
-                                    <option value="flexible">Flexible</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="commitment">Time Commitment *</label>
-                                <select id="commitment" name="commitment" required>
-                                    <option value="">Select commitment</option>
-                                    <option value="full-time">Full-time (40+ hours/week)</option>
-                                    <option value="part-time">Part-time (20-30 hours/week)</option>
-                                    <option value="evening">Evening/Weekend only</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-submit">
-                        <button type="submit" class="btn btn-primary btn-large">📤 Submit Application</button>
-                        <p class="form-note">We'll review your application and get back to you within 2-3 business days</p>
-                    </div>
-                </form>
-            </div>
+                
+                <div class="form-group">
+                    <label>Which course interests you?</label>
+                    <select name="course" required>
+                        <option value="">Choose a course</option>
+                        <option value="beginner">Beginner Web Development</option>
+                        <option value="frontend">Frontend Specialist</option>
+                        <option value="fullstack">Full Stack Developer</option>
+                        <option value="advanced">Advanced JavaScript</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Tell us about yourself</label>
+                    <textarea name="about" rows="4" placeholder="Why do you want to learn web development? Any experience?"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>When can you start?</label>
+                    <select name="start-date">
+                        <option value="asap">As soon as possible</option>
+                        <option value="month">Next month</option>
+                        <option value="flexible">I'm flexible</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn primary large">Send Application</button>
+            </form>
         </div>
     </section>
 
     <!-- Courses Section -->
-    <section id="courses" class="courses-section">
+    <section id="courses">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Web Development <span class="gradient-text">Courses</span></h2>
-                <p class="section-subtitle">Master web development with our comprehensive, project-based courses</p>
-            </div>
+            <h2>Our Web Courses</h2>
+            <p>We keep it simple. Here's what we teach:</p>
+            
             <div class="courses-grid">
+                <div class="course-card">
+                    <h3>Beginner Web Development</h3>
+                    <p class="price">$2,500</p>
+                    <p class="duration">3 months</p>
+                    <p>Start from zero. Learn HTML, CSS, and basic JavaScript. Build your first websites.</p>
+                    <ul>
+                        <li>HTML basics</li>
+                        <li>CSS styling</li>
+                        <li>JavaScript fundamentals</li>
+                        <li>Build 3 projects</li>
+                        <li>Job search help</li>
+                    </ul>
+                    <a href="#apply" class="btn primary">Enroll</a>
+                </div>
+                
                 <div class="course-card popular">
-                    <div class="course-badge">⭐ Most Popular</div>
-                    <div class="course-icon">🌐</div>
-                    <div class="course-header">
-                        <h3>Full-Stack Web Development Bootcamp</h3>
-                        <div class="course-price">$12,000</div>
-                    </div>
-                    <div class="course-stats">
-                        <span>⏰ 16 weeks</span>
-                        <span>👥 1,200+ students</span>
-                        <span>⭐ 4.9 rating</span>
-                        <span>🏆 Beginner to Advanced</span>
-                    </div>
-                    <p class="course-description">Complete program covering frontend, backend, databases, and deployment. Perfect for career changers.</p>
-                    <div class="course-features">
-                        <h4>What You'll Learn:</h4>
-                        <ul>
-                            <li>✅ HTML, CSS, JavaScript fundamentals</li>
-                            <li>✅ React.js and modern frontend frameworks</li>
-                            <li>✅ Node.js and Express backend development</li>
-                            <li>✅ Database design with PostgreSQL</li>
-                        </ul>
-                        <div class="more-topics">+4 more topics</div>
-                    </div>
-                    <div class="course-outcomes">
-                        <span class="outcome-tag">Build 5+ portfolio projects</span>
-                        <span class="outcome-tag">Deploy applications to production</span>
-                        <span class="outcome-tag">Collaborate using Git and GitHub</span>
-                        <span class="outcome-tag">Interview with confidence</span>
-                    </div>
-                    <a href="#apply" class="btn btn-primary">Enroll Now</a>
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Frontend Specialist</h3>
+                    <p class="price">$4,000</p>
+                    <p class="duration">4 months</p>
+                    <p>Master React, advanced CSS, and modern frontend tools. Get job-ready.</p>
+                    <ul>
+                        <li>Advanced JavaScript</li>
+                        <li>React framework</li>
+                        <li>CSS animations</li>
+                        <li>Build 5 projects</li>
+                        <li>Portfolio creation</li>
+                    </ul>
+                    <a href="#apply" class="btn primary">Enroll</a>
                 </div>
+                
                 <div class="course-card">
-                    <div class="course-icon">💻</div>
-                    <div class="course-header">
-                        <h3>Frontend React Specialization</h3>
-                        <div class="course-price">$8,000</div>
-                    </div>
-                    <div class="course-stats">
-                        <span>⏰ 12 weeks</span>
-                        <span>👥 800+ students</span>
-                        <span>⭐ 4.8 rating</span>
-                        <span>🏆 Beginner to Intermediate</span>
-                    </div>
-                    <p class="course-description">Master modern frontend development with React, focusing on user interfaces and user experience.</p>
-                    <div class="course-features">
-                        <h4>What You'll Learn:</h4>
-                        <ul>
-                            <li>✅ Advanced JavaScript and ES6+</li>
-                            <li>✅ React fundamentals and hooks</li>
-                            <li>✅ State management with Redux</li>
-                            <li>✅ Component testing with Jest</li>
-                        </ul>
-                        <div class="more-topics">+4 more topics</div>
-                    </div>
-                    <div class="course-outcomes">
-                        <span class="outcome-tag">Create interactive web applications</span>
-                        <span class="outcome-tag">Master React ecosystem</span>
-                        <span class="outcome-tag">Build responsive designs</span>
-                        <span class="outcome-tag">Deploy optimized applications</span>
-                    </div>
-                    <a href="#apply" class="btn btn-primary">Enroll Now</a>
+                    <h3>Full Stack Developer</h3>
+                    <p class="price">$6,000</p>
+                    <p class="duration">6 months</p>
+                    <p>Learn everything. Frontend, backend, databases. Become a complete developer.</p>
+                    <ul>
+                        <li>Frontend (React, CSS)</li>
+                        <li>Backend (Node.js)</li>
+                        <li>Databases (MongoDB)</li>
+                        <li>Build full applications</li>
+                        <li>Deployment & hosting</li>
+                    </ul>
+                    <a href="#apply" class="btn primary">Enroll</a>
                 </div>
+                
                 <div class="course-card">
-                    <div class="course-icon">🖥️</div>
-                    <div class="course-header">
-                        <h3>Backend Node.js Track</h3>
-                        <div class="course-price">$7,000</div>
-                    </div>
-                    <div class="course-stats">
-                        <span>⏰ 10 weeks</span>
-                        <span>👥 600+ students</span>
-                        <span>⭐ 4.7 rating</span>
-                        <span>🏆 Intermediate</span>
-                    </div>
-                    <p class="course-description">Deep dive into server-side development, APIs, databases, and cloud architecture.</p>
-                    <div class="course-features">
-                        <h4>What You'll Learn:</h4>
-                        <ul>
-                            <li>✅ Node.js and Express.js mastery</li>
-                            <li>✅ RESTful API design and development</li>
-                            <li>✅ Database modeling and optimization</li>
-                            <li>✅ Authentication and security</li>
-                        </ul>
-                        <div class="more-topics">+4 more topics</div>
-                    </div>
-                    <div class="course-outcomes">
-                        <span class="outcome-tag">Build scalable backend systems</span>
-                        <span class="outcome-tag">Design secure APIs</span>
-                        <span class="outcome-tag">Deploy to cloud platforms</span>
-                        <span class="outcome-tag">Implement best practices</span>
-                    </div>
-                    <a href="#apply" class="btn btn-primary">Enroll Now</a>
-                </div>
-                <div class="course-card">
-                    <div class="course-icon">🎨</div>
-                    <div class="course-header">
-                        <h3>UI/UX Design & Development</h3>
-                        <div class="course-price">$9,000</div>
-                    </div>
-                    <div class="course-stats">
-                        <span>⏰ 14 weeks</span>
-                        <span>👥 500+ students</span>
-                        <span>⭐ 4.8 rating</span>
-                        <span>🏆 Beginner to Intermediate</span>
-                    </div>
-                    <p class="course-description">Bridge design and development with modern tools and frameworks for creating beautiful user experiences.</p>
-                    <div class="course-features">
-                        <h4>What You'll Learn:</h4>
-                        <ul>
-                            <li>✅ Design thinking and user research</li>
-                            <li>✅ Figma and design tool mastery</li>
-                            <li>✅ HTML/CSS advanced techniques</li>
-                            <li>✅ CSS animations and transitions</li>
-                        </ul>
-                        <div class="more-topics">+4 more topics</div>
-                    </div>
-                    <div class="course-outcomes">
-                        <span class="outcome-tag">Create stunning user interfaces</span>
-                        <span class="outcome-tag">Develop design systems</span>
-                        <span class="outcome-tag">Build accessible applications</span>
-                        <span class="outcome-tag">Master design-to-code workflow</span>
-                    </div>
-                    <a href="#apply" class="btn btn-primary">Enroll Now</a>
+                    <h3>Advanced JavaScript</h3>
+                    <p class="price">$3,500</p>
+                    <p class="duration">2 months</p>
+                    <p>For people who already know the basics. Learn advanced concepts and patterns.</p>
+                    <ul>
+                        <li>ES6+ features</li>
+                        <li>Async programming</li>
+                        <li>Testing your code</li>
+                        <li>Performance optimization</li>
+                        <li>Advanced projects</li>
+                    </ul>
+                    <a href="#apply" class="btn primary">Enroll</a>
                 </div>
             </div>
-            <div class="courses-cta">
-                <h3>Why Choose Hot Bean Courses?</h3>
-                <div class="cta-features">
-                    <div class="cta-feature">
-                        <div class="cta-icon">👥</div>
-                        <h4>Small Class Sizes</h4>
-                        <p>Maximum 15 students per cohort for personalized attention</p>
-                    </div>
-                    <div class="cta-feature">
-                        <div class="cta-icon">🏆</div>
-                        <h4>Industry Mentors</h4>
-                        <p>Learn from professionals currently working at top tech companies</p>
-                    </div>
-                    <div class="cta-feature">
-                        <div class="cta-icon">✅</div>
-                        <h4>Job Guarantee</h4>
-                        <p>95% of our graduates land jobs within 6 months</p>
-                    </div>
-                </div>
-                <a href="#apply" class="btn btn-secondary btn-large">Start Your Journey Today</a>
+            
+            <div class="course-info">
+                <h3>What's included in all courses:</h3>
+                <ul>
+                    <li>✓ Live online classes</li>
+                    <li>✓ 1-on-1 mentoring</li>
+                    <li>✓ Project feedback</li>
+                    <li>✓ Job search support</li>
+                    <li>✓ Lifetime access to materials</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <div class="logo">☕</div>
-                        <span class="brand-text">Hot Bean</span>
-                    </div>
-                    <p class="footer-description">
-                        Empowering the next generation of web developers through comprehensive training and exciting career opportunities.
-                    </p>
+                <div>
+                    <h3>Hot Beans ☕</h3>
+                    <p>Teaching web development the simple way.</p>
                 </div>
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#courses">Web Courses</a></li>
-                            <li><a href="#jobs">Job Opportunities</a></li>
-                            <li><a href="#team">Our Team</a></li>
-                            <li><a href="#apply">Apply Now</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-section">
-                        <h4>Contact Info</h4>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <span class="contact-icon">📧</span>
-                                <span>hello@hotbean.dev</span>
-                            </div>
-                            <div class="contact-item">
-                                <span class="contact-icon">📞</span>
-                                <span>+1 (555) 123-4567</span>
-                            </div>
-                            <div class="contact-item">
-                                <span class="contact-icon">📍</span>
-                                <span>San Francisco, CA</span>
-                            </div>
-                        </div>
-                    </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p>Email: hello@hotbeans.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Address: 123 Web St, Tech City</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Hot Bean. All rights reserved. Built with passion for web development.</p>
+                <p>&copy; 2024 Hot Beans. Made with coffee and code.</p>
             </div>
         </div>
     </footer>
